@@ -28,5 +28,7 @@
  (The HttpEngineOptions has the Boolean property ThrowOnInvalidRequest, default is true.)
  <br/><br/>
  Ex:<br/>
- 1. CreateContactRequest createContactRequest = new(){ parameters... };<br/>
- 2. CreateContactResponse createContactResponse = RDStationApi.CreateContact.Query(contactRequest, httpEngineOptions);<br/>
+ ```c#
+ CreateContactRequest createContactRequest = new(){ parameters... };<br/>
+ CreateContactResponse createContactResponse = RDStationApi.CreateContact.Query(contactRequest, httpEngineOptions);<br/>
+ ```
