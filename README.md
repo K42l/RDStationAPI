@@ -29,6 +29,6 @@
  <br/><br/>
  Ex:<br/>
  ```c#
- CreateContactRequest createContactRequest = new(){ parameters... };<br/>
- CreateContactResponse createContactResponse = RDStationApi.CreateContact.Query(contactRequest, httpEngineOptions);<br/>
+ CreateContactRequest createContactRequest = new(){ parameters... };
+ CreateContactResponse createContactResponse = RDStationApi.CreateContact.Query(contactRequest, httpEngineOptions);
  ```
