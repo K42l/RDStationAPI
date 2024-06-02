@@ -17,7 +17,7 @@
  Just keep it in mind that you need to call the API "RenewAccessToken" because the "access_token" expires every 24 hours from the moment it's generated.<br/>
  https://developers.rdstation.com/reference/atualizar-access-token
  <br/><br/>
- IMPORTANT: YOU WILL NEED TO DISPOSE OF ALL OF THE API CALLS IF THE TOKEN CHANGES, OTHERWISE THE HTTP ENGINE WONT BE SET AGAIN AND IT WILL KEEP USING THE OLD TOKEN.
+ IMPORTANT: You'll need to dispose of all the API calls if the token changes, otherwise the HttpEngine wont be set again and it will kepp using the old token.
  <br/><br/>
  <br/><br/>
  To use this API integration it's fairly simple:
