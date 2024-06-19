@@ -9,7 +9,6 @@
  Also i got to give credit to my coworker, Lucas Lana, because he is the one that made the integration that i based mine upon. And he also taught me a lot, thanks Lucas!<br/>
  I checked Michael's GoogleApi repo and it had a MIT License, so i figured it was ok for me to use it, modify and publish it on mine as well.
  <br/><br/>
- <br/><br/>
  Setup:
  <br/><br/>
  I created a class called Credentials that is used to pass the RDStation credentials to the HttpEngine. I did it this way because I didn't want to keep rewriting the AppSettings.json every time the access_token changed.<br/>
